@@ -13,4 +13,20 @@
 *.mode2v3
 
 # SimTower
-/resources/SIMTOWER.EXE
+SIMTOWER.EXE
+SIMTOWER.EX_
+
+# CMake
+source/CMakeCache.txt
+source/CMakeFiles/
+source/Makefile
+source/OpenSkyscraper
+source/cmake_install.cmake
+
+# Kate temp files
+*~
+
+# Various go garbage files
+_*
+8.out
+*.8
