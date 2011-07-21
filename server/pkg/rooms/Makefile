@@ -1,6 +1,6 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=rooms
+TARG=opensky/rooms
 GOFILES=\
 	rooms.go
 

@@ -1,8 +1,8 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=location
+TARG=opensky/packets
 GOFILES=\
-	location.go\
-	2D.go
+	packet.go\
+	types.go
 
 include $(GOROOT)/src/Make.pkg

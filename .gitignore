@@ -27,6 +27,7 @@ source/cmake_install.cmake
 *~
 
 # Various go garbage files
+opensky-server
 _*
 8.out
 *.8

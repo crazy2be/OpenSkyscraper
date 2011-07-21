@@ -1,4 +1,4 @@
-package person
+package people
 
 type Person interface {
 	Cash() int

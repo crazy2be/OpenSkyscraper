@@ -1,6 +1,6 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=person
+TARG=opensky/people
 GOFILES=\
 	person.go
 

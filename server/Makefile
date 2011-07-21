@@ -1,7 +1,24 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=openskyserver
-GOFILES=\
-	main.go\
+DIRS=\
+pkg/location\
+pkg/people\
+pkg/rooms\
+pkg/packets\
+cmd/opensky-server
 
-include $(GOROOT)/src/Make.cmd
+all: install
+
+clean.dirs: $(addsuffix .clean, $(DIRS))
+
+install.dirs: $(addsuffix .install, $(DIRS))
+
+%.clean:
+	+cd $* && gomake clean
+	
+%.install:
+	+cd $* && gomake install
+	
+clean: clean.dirs
+
+install: install.dirs
