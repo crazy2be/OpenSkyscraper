@@ -5,6 +5,7 @@ pkg/location\
 pkg/people\
 pkg/rooms\
 pkg/packets\
+pkg/conn\
 cmd/opensky-server
 
 all: install

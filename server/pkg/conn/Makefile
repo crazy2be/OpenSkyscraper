@@ -1,10 +1,8 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=opensky/packets
+TARG=opensky/conn
 GOFILES=\
-	packet.go\
-	types.go\
-	value.go\
-	read.go
+	playerconn.go\
+	key.go
 
 include $(GOROOT)/src/Make.pkg
