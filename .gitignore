@@ -12,3 +12,7 @@
 # Documentation
 /doc/source/*
 !/doc/source/Doxyfile
+
+# Object Files
+*.o
+main
